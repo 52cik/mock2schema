@@ -1,25 +1,24 @@
 # mock2schema
 
-> mock-json to json-schema
-
-[中文文档](README.zh-CN.md)
-
-## Requirements
-
-> node6 or higher
+> mock-json 转 json-schema 工具
 
 
-## How to use it
+## 环境需求
 
-### Install
+> node6 以上版本
+
+
+## 如何使用
+
+### 安装
 
 ```sh
 $ yarn add mock2schema
-# or
+# 或者
 $ npm i -S mock2schema
 ```
 
-### Usage
+### 使用
 
 ```js
 const mock2schema = require('mock2schema');
@@ -32,7 +31,7 @@ const schema = mock2schema({
 console.log(schema);
 ```
 
-The return data is as follows:
+结果如下:
 
 ```json
 {
@@ -63,3 +62,5 @@ The return data is as follows:
 #### data
 
 Type: `Object`
+
+任何 mock-json 规范的数据
