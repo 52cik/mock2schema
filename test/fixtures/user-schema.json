@@ -1,0 +1,44 @@
+{
+  "title": "接口描述",
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "number",
+      "description": "字段 {code} 描述"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "number",
+          "description": "字段 {id} 描述"
+        },
+        "name": {
+          "type": "string",
+          "description": "字段 {name} 描述"
+        },
+        "state": {
+          "type": "boolean",
+          "description": "字段 {state} 描述"
+        },
+        "hobbies": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "字段 {} 描述"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "state",
+        "hobbies"
+      ]
+    }
+  },
+  "required": [
+    "code",
+    "data"
+  ]
+}

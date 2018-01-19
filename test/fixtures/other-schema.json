@@ -1,0 +1,16 @@
+{
+  "title": "接口描述",
+  "type": "object",
+  "properties": {
+    "empty-object": {
+      "type": "object"
+    },
+    "empty-array": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "empty-object",
+    "empty-array"
+  ]
+}

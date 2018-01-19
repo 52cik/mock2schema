@@ -1,0 +1,9 @@
+{
+  "code": 0,
+  "data": {
+    "id": 233,
+    "name": "张三",
+    "state": true,
+    "hobbies": ["篮球", "跑步"]
+  }
+}

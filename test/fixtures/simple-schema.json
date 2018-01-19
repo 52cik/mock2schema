@@ -1,0 +1,18 @@
+{
+  "title": "接口描述",
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "number",
+      "description": "字段 {code} 描述"
+    },
+    "message": {
+      "type": "string",
+      "description": "字段 {message} 描述"
+    }
+  },
+  "required": [
+    "code",
+    "message"
+  ]
+}
