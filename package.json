@@ -1,10 +1,12 @@
 {
   "name": "mock2schema",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "mock-json to json-schema",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nyc ava",
+    "test-cov": "nyc --reporter=html --reporter=text ava",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,13 @@
   "bugs": {
     "url": "https://github.com/52cik/mock2schema/issues"
   },
-  "homepage": "https://github.com/52cik/mock2schema#readme"
+  "homepage": "https://github.com/52cik/mock2schema#readme",
+  "devDependencies": {
+    "ava": "^0.24.0",
+    "coveralls": "^3.0.0",
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "nyc": "^11.4.1"
+  }
 }
